@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catering Reservation and Ordering System</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <h1>Catering Reservation and Ordering System</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#Menu">Menu</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>Welcome Catering Reservation </h2>
+                <div class="hero-button">
+                    <a href="#menu" class="btn btn-primary">Viwe Menu</a>
+                    <a href="#contact" class="btn btn-secondary">Make Resevartion</a>
+                </div>
+            </div>
+        </section>
+        <section id="menu" class="menu">
+            <div class="container">
+                <div class="menu-categories">
+                    <div class="menu-category">
+                        <h3>Our Menu</h3>
+                        <div class="menu-items">
+                            <div class="menu-item">
+                               <div class="menu-item-info">
+                                <h4>Wedding</h4>
+                               </div>
+                               <span class="price">30,000 Rs</span>
+                            </div>
+                            <div class="menu-item">
+                               <div class="menu-item-info">
+                                <h4>Birthday party</h4>
+                                </div>
+                               <span class="price">13,000 Rs</span>
+                        </div>
+
+                        <div class="menu-item">
+                               <div class="menu-item-info">
+                                <h4> corporate events and festivals </h4>
+                                </div>
+                               <span class="price">20,000 Rs</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">Catering Reservation </h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Our Story</h3>
+                        <p>In many towns and rural areas, talented caterers and small food businesses struggle to reach customers beyond their local communities.<br> 
+                            Orders are often managed manually through phone calls or in-person visits, leading to confusion, missed reservations, and limited growth opportunities.<br>
+                            Customers, on the other hand, find it difficult to compare menus, check availability, and place orders conveniently.<br>
+                        </p>
+                    </div>
+                      
+                    <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1555244162-803834f70033?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Catering Reservation">
+                </div>
+                </div>                
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Contact Us</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Get in Touch </h3>
+                        <div class="contact-item">
+                            <strong>Address:</strong>
+                            <p>Belapur Navi Mumbai</p>
+                        </div>
+                        <div class="contact-item">
+                            <strong>Phone:</strong>
+                            <p>+91 922347891</p>
+                    </div>
+                    <div class="contact-item">
+                            <strong>Email:</strong>
+                            <p>Info@Catering Reservation.com  </p>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h3>Make a Resevartion</h3>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Full Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                     <div class="form-group">
+                        <label for="Phone">Phone:</label>
+                        <input type="tel" id="Phone" name="Phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Resevartion Date:</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Time">Time:</label>
+                        <select id="time" name="time" required>
+                            <option value="">Select Time</option>
+                            <option value="18:00">6:00PM</option>
+                            <option value="19:00">7:00PM</option>
+                            <option value="20:00">8:00PM</option>
+                            <option value="21:00">9:00PM</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="Guest">Number of Guest:</label>
+                        <select id="Guest" name="Guest" required>
+                            <option value="">Select Guest</option>
+                            <option value="1">1 Guests</option>
+                            <option value="2">2 Guests</option>
+                            <option value="3">3 Guests</option>
+                            <option value="4">4 Guests</option>
+                            <option value="5">5+ Guests</option>
+                        </select>
+                        </div>
+                         <div class="form-group">
+                        <label for="massage">Special Request:</label>
+                        <textarea id="massage" name="massage" rows="4" placeholder="Any special dietary requirements or request... "></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit Resevartion</button>
+                </form>
+               
+                     
+            </div>
+
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+               <div class="footer-section">
+                <h3>Catering Reservation</h3>
+                <p>The system allows users to explore catering services, browse detailed menus, view prices, and place food orders or event reservations online.<br> 
+                    Customers can select event types such as weddings, birthdays, corporate events, or festivals, <br>
+                    choose preferred dates, number of guests, and customize menu items based on their needs. This makes the entire catering booking process fast, 
+                    transparent, and hassle-free.</p>
+               </div>
+               <div class="footer-section">
+                <h4>Ouick Links</h4>
+                <ul>
+                    <il><a href="#home">Home</a></il><br>
+                    <il><a href="#menu">Menu</a></il><br>
+                    <il><a href="#about">About</a></il><br>
+                    <il><a href="#contact">Contact</a></il>
+                </ul>
+               </div>
+               <div class="footer-section">
+                <h4>Opening Hours</h4>
+                <p>Monday-Thursday <br>
+                    Time 11:00AM-10:00AM</p>
+                <p>Friday-Saturday<br>
+                    Time 11:00AM-11:00PM</p>
+                <p>Sunday<br>
+                    Time 12:00PM-09:00PM</p>
+               </div>
+               <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#" class="social-links">Facebook</a>
+                    <a href="#" class="social-links">Instagram</a>
+                    <a href="#" class="social-links">Twitter</a>
+                </div>
+                <br>
+                <div class="footer-bottom">
+                    <p>@Catering Reservation and Ordering System. All rights resevrved. </p>
+                </div>
+               </div>
+            </div>
+        </div>
+    </footer>
+    <script src="srcript.js"></script>
+  </body>
+</html>
